@@ -8,7 +8,7 @@ visual_recognition = VisualRecognitionV3(
     authenticator=authenticator
 )
 
-visual_recognition.set_service_url('https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/357e52c4-f9b7-4749-ae91-30c96a2250f0')
+visual_recognition.set_service_url('https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/'+ config.api_key)
 
 def classify_image(image_url):
 
