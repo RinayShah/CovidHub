@@ -1,0 +1,136 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:400,700'); */
+
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+
+/*--- NAVIGATION ---*/
+.navbar {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.1rem;
+  letter-spacing: .1rem;
+  background: rgba(0,0,0,0.6)!important;
+}
+.navbar-brand img{
+  height: 2rem;
+}
+.navbar-nav li{
+  padding-right: .5rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: 0.1rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #1ebba3;;
+}
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+.caption h1{
+  font-size: 3.8rem;
+  font-weight: 500;
+  letter-spacing: .3rem;
+  text-shadow: .4rem .4rem .8rem black;
+  padding-bottom: 1rem;
+}
+.caption h3{
+  font-size: 2rem;
+  text-shadow: .4rem .4rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+.btn-lg{
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+}
+/*--- Landing Page ---*/
+.home-inner{
+  background-image: url(img/covidImage3.png);
+}
+
+/* --- Prevention Section ---*/
+#prevention {
+  background-color: #a1cacd;
+}
+#prevention h1 {
+  color: black;
+  font-size: 3.8rem;
+  font-weight: 500;
+}
+
+/* --- ChatBox Section ---*/
+#chatline {
+  background-image: url(img/covidImage3.png);
+}
+#chatline {
+  color:white;
+  font-size: 3.8rem;
+  font-weight: 500;
+}
+
+/* --- Surface Detenction ---*/
+#detection {
+  background-color: #a1cacd;
+}
+#detection h1 {
+  color: black;
+  font-size: 3.8rem;
+  font-weight: 500;
+}
+
+/*--- Team Page ---*/
+#team {
+  background-image: url(img/covidImage3.png);
+}
+#team h1 {
+  color: white;
+  font-size: 3.8rem;
+  font-weight: 500;
+}
+
+
+/*--- Button---*/
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/

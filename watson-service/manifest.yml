@@ -1,0 +1,6 @@
+applications:
+- name: think-fyre-covid-hub-watson-service
+  command: python watson_service.py
+  path: .
+  memory: 256M
+  instances: 1
