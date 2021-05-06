@@ -6,7 +6,7 @@ click==7.1.2
 distlib==0.3.0
 filelock==3.0.12
 Flask==1.1.2
-Flask-Cors==3.0.8
+Flask-Cors==3.0.9
 ibm-cloud-sdk-core==1.5.1
 ibm-watson==4.5.0
 identify==1.4.16
